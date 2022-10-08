@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT preview card component Tailwind CSS</title>
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body class="bg-[#0d1a2d]">
+    <div class="flex h-screen justify-center items-center space-x-4">
+      <main class="p-6 mx-auto bg-[#16263d] rounded-xl w-96">
+        <picture class="block mb-5 relative">
+          <div class="rounded-xl absolute inset-0 z-10 bg-[#00fefb] text-center flex flex-col items-center justify-center opacity-0 hover:opacity-80 bg-opacity-90 duration-300">
+            <img src="./images/icon-view.svg" alt="eye icon" />
+          </div>
+          <img class="rounded-xl" src="./images/image-equilibrium.jpg" alt="NFT images">
+        </picture>
+        <div class="flow-root">
+          <div class="my-3">
+            <h1 class="font-bold text-white text-xl mb-4 hover:text-[#00fefb] cursor-pointer">Equilibrium #3429</h1>
+            <p class="font-light text-[#89a8d7] text-base">Our Equilibrium collection promotes balance and calm.</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="flex items-center">
+            <picture class="mr-3">
+              <img src="./images/icon-ethereum.svg" alt="Ethereum Icon Images">
+            </picture>
+            <p class="font-bold text-[#00fefb] text-lg">0.041 ETH</p>
+          </div>
+          <div class="flex items-center">
+            <picture class="mr-3">
+              <img src="./images/icon-clock.svg" alt="Clock Icon Images">
+            </picture>
+            <p class="font-bold text-[#89a8d7] text-lg">3 days left</p>
+          </div>
+        </div>
+
+        <div class="flex items-center mt-4 border-t-2 border-[#27466f] pt-4">
+          <picture class="border-2 border-white rounded-full mr-3 w-[3rem]">
+            <img src="./images/image-avatar.png" alt="Avatar Image" />
+          </picture>
+          <p class="text-white"><span class="text-[#89a8d7]">Creation of</span> <span class="hover:text-[#00fefb] cursor-pointer" >Jules Wyvern</span></p>
+        </div>
+
+      </main>
+    </div>
+    
+</body>
+</html>
